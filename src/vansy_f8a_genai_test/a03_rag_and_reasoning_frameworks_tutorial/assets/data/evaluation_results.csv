@@ -1,0 +1,143 @@
+num,question,expected_tool,actual_tool,tool_selection_datetime,is_correct,latency_sec,final_answer
+0,What is the total number of patients treated at Grace Memorial Hospital in May 2023?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:30:43,True,5.146700859069824,"In May 2023, a total of 0 patients were treated at Grace Memorial Hospital."
+1,List all physicians specializing in Cardiology.,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:30:50,True,7.507440090179443,I do not have sufficient information to provide a list of physicians specializing in Cardiology.
+2,What is the billing amount for visit ID 789123?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:30:56,True,5.484712362289429,I do not have the billing amount for visit ID 789123.
+3,Which insurance provider is associated with patient John Smith (DOB 1985-04-12)?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:01,True,4.843178987503052,I do not have information about the insurance provider associated with patient John Smith.
+5,Find all patients treated by Dr. Ben Adams.,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:09,True,4.431775093078613,I don't have the information about the patients treated by Dr. Ben Adams.
+6,What is the address of 'City General Hospital'?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:13,True,3.9823999404907227,I do not have the address of 'City General Hospital'.
+7,Show me the NPI number for a physician named 'Robert Miller'.,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:18,True,4.8667261600494385,I do not have the NPI number for the physician named 'Robert Miller'.
+8,Which hospital employs Dr. Susan Wright?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:22,True,4.296338081359863,I do not have the information about which hospital employs Dr. Susan Wright.
+9,What was the date of patient Jane Doe's last visit?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:26,True,4.120718955993652,I do not have the information about the date of patient Jane Doe's last visit.
+10,List all payers (insurance companies) available in the system.,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:32,True,5.298301935195923,"The available payers (insurance companies) in the system are:  
+- Medicaid  
+- UnitedHealthcare  
+- Aetna  
+- Cigna  
+- Blue Cross"
+11,How many reviews has Dr. Chen received?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:36,True,4.31005072593689,Dr. Chen has received 0 reviews.
+12,What is the total billing revenue for 'Mercy West Hospital' for the last quarter?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:41,True,4.965508937835693,The total billing revenue for 'Mercy West Hospital' for the last quarter is $0.
+13,"Find the visit details for patient ID 55432 on June 1st, 2023.",HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:47,True,6.280889987945557,"There are no available records for the visit details of patient ID 55432 on June 1st, 2023."
+14,Which physicians work at 'Downtown Clinic'?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:51,True,3.44826078414917,I don't have the information about which physicians work at 'Downtown Clinic'.
+15,How many patients are covered by BlueCross?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:55,True,4.410916805267334,"There are 2,039 patients covered by BlueCross."
+16,What is patient Michael Johnson's primary insurance provider?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:31:59,True,3.882833957672119,Michael Johnson's primary insurance provider is Blue Cross.
+17,Count the number of physicians with the specialty 'Pediatrics'.,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:32:04,True,4.602739095687866,There are currently 0 physicians with the specialty 'Pediatrics'.
+18,What is the most recent visit recorded in the system?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:32:08,True,4.022087097167969,"The most recent visit recorded in the system was visit ID 2030, which took place on October 30, 2023."
+20,How many hospitals are in the network?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:32:13,True,3.2734079360961914,There are a total of 30 hospitals in the network.
+21,Find the patient with the highest single visit bill amount.,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:32:19,True,5.663543224334717,"The patient with the highest single visit bill amount is Steven Bennett, but there is no recorded bill amount for this visit."
+22,Which doctor wrote review ID R456?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:32:23,True,3.888338804244995,The doctor who wrote review ID R456 is Kayla Hunter DDS.
+23,How many visits were covered by Aetna last year?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:32:27,True,4.41897988319397,Aetna covered a total of 386 visits last year.
+24,List the specialties of all physicians employed by 'Grace Memorial Hospital'.,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:32:32,True,4.875910997390747,I don't have the information about the specialties of all physicians employed by 'Grace Memorial Hospital'.
+25,What are common complaints about the emergency room at City General Hospital?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:32:37,True,4.623039960861206,I don't have information about common complaints regarding the emergency room at City General Hospital.
+26,How do patients describe Dr. Emily Carter's bedside manner?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:32:41,True,4.669918060302734,I don't have any information about how patients describe Dr. Emily Carter's bedside manner.
+27,Is Dr. Ben Adams known for being on time for appointments?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:32:45,True,3.4292490482330322,I don't have information about whether Dr. Ben Adams is known for being on time for appointments.
+28,What do reviews say about the cleanliness of Mercy West Hospital?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:32:49,True,4.269690990447998,There are no available reviews mentioning the cleanliness of Mercy West Hospital.
+29,Find reviews mentioning 'long wait times' at Downtown Clinic.,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:32:53,True,3.718442916870117,There are no reviews mentioning 'long wait times' at Downtown Clinic.
+30,What is the general patient sentiment for the cardiology department at Grace Memorial?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:32:57,True,3.9017908573150635,There is no available information about the general patient sentiment for the cardiology department at Grace Memorial.
+31,Are there any positive comments about the nursing staff at City General Hospital?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:03,True,6.390733003616333,There are no available comments about the nursing staff at City General Hospital.
+32,How do patients feel about the parking situation at Mercy West?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:09,True,5.44961404800415,There is no information available about how patients feel about the parking situation at Mercy West Hospital.
+33,Summarize the patient experience for those who saw Dr. Chen for a consultation.,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:15,True,6.787421226501465,"The patient experiences for those who saw Dr. Chen for a consultation were mixed. Gregory Salazar found the medical care satisfactory but faced issues with confusing administrative processes that led to billing errors. Christopher Taylor felt neglected and frustrated due to a lack of attention from the nursing staff, despite finding the medical care adequate. Overall, one patient expressed satisfaction with medical care but frustration with administrative issues, while the other felt neglected."
+34,What are the most praised aspects of Dr. Susan Wright's practice?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:19,True,3.8344738483428955,There is no available information about the most praised aspects of Dr. Susan Wright's practice.
+35,Do patients find the billing department at Grace Memorial helpful?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:23,True,3.5493271350860596,There is no available information about whether patients find the billing department at Grace Memorial helpful.
+36,Is the food at City General Hospital reviewed favorably?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:29,True,5.863024950027466,There is no information available about whether the food at City General Hospital is reviewed favorably.
+37,What do parents say about the pediatricians at Downtown Clinic?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:33,True,4.910640001296997,There is no available information about what parents say regarding the pediatricians at Downtown Clinic.
+38,Find reviews that mention 'communication skills' for Dr. Robert Miller.,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:37,True,3.6971898078918457,There are no available reviews that mention 'communication skills' for Dr. Robert Miller.
+39,How would you describe the atmosphere in the maternity ward at Mercy West based on reviews?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:41,True,4.066257953643799,There is no available information about the atmosphere in the maternity ward at Mercy West based on reviews.
+40,Are there any reviews complaining about difficulty scheduling appointments with Dr. Carter?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:45,True,3.7068049907684326,There are no available reviews complaining about difficulty scheduling appointments with Dr. Carter.
+41,What are some reasons patients recommend Dr. Adams?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:49,True,4.506412029266357,There is no information available about why patients recommend Dr. Adams.
+42,Do reviews mention the quality of the post-operative care at Grace Memorial?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:53,True,3.6801416873931885,"No, reviews do not mention the quality of the post-operative care at Grace Memorial."
+43,What feedback have patients given about the check-in process at Downtown Clinic?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:33:58,True,4.707595109939575,There is no feedback available about the check-in process at Downtown Clinic.
+44,Summarize the negative feedback for City General Hospital.,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:34:02,True,3.9033849239349365,There is no information available to summarize negative feedback for City General Hospital.
+45,Is Dr. Chen considered a good listener by his patients?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:34:08,True,6.042686939239502,"Dr. Ronald Chen is considered a good listener by his patients, while feedback for Dr. Robert Chen is mixed and does not clearly indicate his listening skills."
+46,What is the worst thing patients have said about their stay at Mercy West?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:34:12,True,3.75662899017334,There is no information available about the worst things patients have said about their stay at Mercy West.
+47,How do patients rate the follow-up care provided by Dr. Wright?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:34:17,True,5.025985956192017,There is no information available about how patients rate the follow-up care provided by Dr. Wright.
+48,Find patient opinions on the comfort of the rooms at Grace Memorial.,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:34:21,True,4.553673982620239,There is no information available about patient opinions on the comfort of the rooms at Grace Memorial.
+49,Are there reviews that compare Dr. Adams to other surgeons at his hospital?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:34:26,True,5.092595338821411,There are no reviews that compare Dr. Adams to other surgeons at his hospital.
+50,Tell me about Dr. Sarah Jenkins.,HospitalReviewsQA,HospitalGraphQA,2025-06-18 04:34:31,False,4.616018772125244,I don't have any information about Dr. Sarah Jenkins.
+51,Is Mercy West a good hospital?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:34:35,True,4.120501279830933,I don't have enough information to determine if Mercy West is a good hospital.
+52,How much does it cost to see a cardiologist at City General Hospital?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:34:40,True,4.800161123275757,I don't have information on the cost to see a cardiologist at City General Hospital.
+53,Which pediatrician should I take my child to?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:34:44,True,4.146393060684204,I don't have enough information to recommend a specific pediatrician.
+54,What is the wait time at the Downtown Clinic?,HospitalReviewsQA,HospitalGraphQA,2025-06-18 04:34:48,False,4.20795202255249,The wait time at the Downtown Clinic is currently not available.
+55,Find me a top-rated surgeon at Grace Memorial.,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:34:52,True,3.9500558376312256,I don't have information about top-rated surgeons at Grace Memorial.
+56,How busy is Dr. Ben Adams?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:34:56,True,4.294445753097534,"Dr. Ben Adams is currently not busy, as he has a visit count of 0."
+57,What's the process for a new patient at Downtown Clinic?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:35:01,True,4.5250139236450195,I don't have information about the process for a new patient at Downtown Clinic.
+58,Compare Dr. Carter and Dr. Miller.,HospitalReviewsQA,HospitalGraphQA,2025-06-18 04:35:20,False,18.961997032165527,"Dr. David Carter and Dr. Edward Miller both received positive feedback from their patients, but there are some differences in their experiences and the aspects of care they provided. 
+
+Dr. David Carter treated two patients, Michael Herrera and Eric Schwartz. Michael noted that the medical team was thorough and the hospital had a calming ambiance, although he was disappointed by the outdated magazines in the waiting area. Eric had a positive overall experience, highlighting the efficiency of the medical team and the well-maintained facilities, but he mentioned a downside regarding the lack of information provided about the treatment plan.
+
+On the other hand, Dr. Edward Miller also treated two patients, Matthew Carter and John Barrett. Matthew appreciated the hospital's commitment to patient care and the responsiveness of the medical team, but he pointed out that the cafeteria menu lacked variety, making dining options repetitive. John had a positive experience specifically with the hospital's pain management team, noting their responsiveness to his needs during a challenging time.
+
+In summary, both doctors are associated with positive patient experiences, but Dr. Carter's patients focused more on the ambiance and communication, while Dr. Miller's patients emphasized the quality of care and the dining options available at the hospital."
+59,What are my options for knee surgery at City General Hospital?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:35:25,True,4.896274089813232,I don't have information about the options for knee surgery at City General Hospital.
+60,Is it expensive to get treated at Grace Memorial?,HospitalGraphQA,HospitalReviewsQA,2025-06-18 04:35:32,False,6.827298164367676,I don't have information about whether it is expensive to get treated at Grace Memorial.
+61,Find me a doctor who is good with anxious patients.,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:35:38,True,6.348776817321777,I cannot definitively recommend a doctor who is specifically noted for being good with anxious patients based on the available reviews.
+62,How can I find out the cost of my recent procedure?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:35:43,True,5.287622928619385,"The cost of your recent procedure is approximately $10,042.06."
+63,What's the best hospital for cardiac care?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:35:47,True,4.262874126434326,I don't know which hospital is the best for cardiac care.
+64,Who is the head of pediatrics at Mercy West?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:35:51,True,3.5246782302856445,I don't know the answer.
+65,Tell me about patient experiences with insurance at City General.,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:35:56,True,4.756532907485962,I don't have any information about patient experiences with insurance at City General.
+66,How many patients has the best-rated doctor at Grace Memorial seen?,HospitalReviewsQA,HospitalGraphQA,2025-06-18 04:36:01,False,4.820612192153931,I don't know the answer.
+67,Is it easy to get an appointment with Dr. Chen?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:36:06,True,5.566313982009888,I don't have information on whether it is easy to get an appointment with Dr. Chen.
+68,What is the average bill for a patient covered by UnitedHealthcare?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:36:10,True,4.347307920455933,"The average bill for a patient covered by UnitedHealthcare is approximately $25,498.85."
+69,What are the credentials of the most recommended orthopedic surgeon?,HospitalGraphQA,HospitalReviewsQA,2025-06-18 04:36:19,False,8.739555835723877,I don't have information about the credentials of the most recommended orthopedic surgeon.
+70,Does Dr. Wright have a good reputation?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:36:24,True,4.354358196258545,I don't have information about Dr. Wright's reputation.
+71,I need a doctor who speaks Spanish.,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:36:28,True,3.947427988052368,I don't have information on doctors who speak Spanish.
+72,What's the difference between Mercy West and City General?,HospitalReviewsQA,HospitalGraphQA,2025-06-18 04:36:34,False,6.547616958618164,I don't have information on the differences between Mercy West and City General.
+73,Can you tell me if my insurance covers Dr. Adams?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:36:39,True,4.451464891433716,I don't know if your insurance covers Dr. Adams.
+74,Why do people like Dr. Carter so much?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:36:46,True,7.210104942321777,"People like Dr. Carter because he and his medical team are efficient and provide excellent care. Patients appreciate the attentiveness of the staff and the overall positive experience in the medical environment. However, some reviews suggest there are areas for improvement, such as communication regarding treatment plans and noise levels in the ward. Overall, the quality of care and attentiveness are highlighted as key reasons for their appreciation."
+75,Hello,no,no,2025-06-18 04:36:52,True,6.531646966934204,Hello! How can I assist you today?
+76,Find me the top-rated cardiologist at Grace Memorial Hospital.,HospitalReviewsQA,HospitalGraphQA,2025-06-18 04:37:01,False,8.641932010650635,I am unable to find information about the top-rated cardiologist at Grace Memorial Hospital.
+77,Which hospital does he work at?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:37:05,True,3.8565330505371094,I do not know which hospital Dr. Carter works at.
+78,How many patients has he treated this year?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:37:09,True,4.4324049949646,Dr. Carter has treated 0 patients this year.
+79,Thank you.,no,no,2025-06-18 04:37:23,True,13.59944772720337,Agent stopped due to iteration limit or time limit.
+80,What are common complaints about Dr. Robert Miller?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:37:27,True,4.106686115264893,There is no information available about common complaints regarding Dr. Robert Miller.
+81,And what are his areas of specialty?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:37:31,True,3.9807469844818115,I do not have information about the areas of specialty for Dr. Robert Miller.
+82,Who else in that specialty works at his hospital?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:37:35,True,4.533374071121216,I cannot determine who else in Dr. Robert Miller's specialty works at his hospital due to a lack of information about his specialty.
+83,Which of them has better reviews for punctuality?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:37:41,True,5.472990989685059,Neither Dr. Robert Miller nor Dr. Carter has better reviews for punctuality; both received negative feedback regarding wait times.
+84,"What was the total bill for my visit on July 20, 2023 with Dr. Carter?",HospitalGraphQA,HospitalGraphQA,2025-06-18 04:37:46,True,5.140257120132446,"The total bill for your visit on July 20, 2023, with Dr. Carter was $0."
+86,Can you tell me what people say about her?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:37:56,True,7.91335391998291,"The reviews about Dr. Tamara Potter indicate a mix of experiences from her patients. Lisa Lowery mentioned that her stay at Schultz-Powers hospital was a ""rollercoaster,"" finding the medical care satisfactory but noting high noise levels that affected her ability to rest. Amanda Cook had a positive experience at Shea LLC, stating that the medical staff, including Dr. Potter, was compassionate and knowledgeable, and appreciated the cleanliness and comfort of the facilities. Miss Denise Webster DVM also praised the medical team for being professional and compassionate, noting a positive atmosphere at the well-equipped facility. Overall, Dr. Potter is viewed positively by her patients, particularly for her compassion and professionalism, although one patient had concerns about the hospital environment."
+87,"That's helpful, thanks.",no,no,2025-06-18 04:38:00,True,3.12363600730896,I will wait for the user to ask another question or provide further context.
+88,List all hospitals in the system.,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:38:10,True,10.426737785339355,"Here is a list of all the hospitals in the system:
+1. Wallace-Hamilton (CO)
+2. Burke, Griffin and Cooper (NC)
+3. Walton LLC (FL)
+4. Garcia Ltd (NC)
+5. Jones, Brown and Murray (NC)
+6. Boyd PLC (GA)
+7. Wheeler, Bryant and Johns (FL)
+8. Brown Inc (FL)
+9. Smith, Edwards and Obrien (FL)
+10. Brown-Golden (NC)
+11. Little-Spencer (CO)
+12. Rose Inc (FL)
+13. Malone, Thompson and Mejia (NC)
+14. Mcneil-Ali (GA)
+15. Jones, Taylor and Garcia (CO)
+16. Richardson-Powell (GA)
+17. Castaneda-Hardy (CO)
+18. Burch-White (NC)
+19. Cunningham and Sons (TX)
+20. Bell, Mcknight and Willis (CO)
+21. Pugh-Rogers (GA)
+22. Rush, Owens and Johnson (NC)
+23. Pearson LLC (CO)
+24. Taylor and Sons (TX)
+25. Schultz-Powers (TX)
+26. Jordan Inc (FL)
+27. Lewis-Nelson (FL)
+28. Shea LLC (GA)
+29. Huynh PLC (CO)
+30. Vaughn PLC (CO)"
+89,Which one has the highest number of physicians?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:38:14,True,4.12975287437439,"The hospital with the highest number of physicians is Richardson-Powell, which has a total of 265 physicians."
+90,"Now, which one has the best reviews for its emergency room?",HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:38:19,True,5.292354106903076,I cannot determine which hospital has the best reviews for its emergency room based on the available information.
+91,What is the address for that one?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:38:24,True,4.911187171936035,"The address for Richardson-Powell hospital is in Georgia (GA), but specific address details are not provided."
+92,Can you help me?,no,HospitalReviewsQA,2025-06-18 04:38:27,False,2.7172279357910156,Of course! How can I assist you?
+93,Show me the patient reviews for Downtown Clinic.,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:38:32,True,4.92616605758667,I don't have access to patient reviews for Downtown Clinic.
+94,Filter those for reviews mentioning 'billing issues'.,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:38:40,True,8.295191049575806,"Here are the reviews mentioning 'billing issues':
+1. **Brianna Johnson** - **Burch-White**: ""The hospital's billing process was confusing and left me with unexpected expenses. Transparent and clear billing practices are essential to avoid financial stress for patients already dealing with health issues.""
+2. **Robert Ho** - **Smith, Edwards and Obrien**: ""The billing process at the hospital was a nightmare. Hidden fees and unclear charges made it difficult to understand the final cost of my treatment. This aspect needs significant improvement.""
+3. **Michelle James** - **Little-Spencer**: ""The hospital's medical team was outstanding, but the billing process was a nightmare. It took multiple calls to resolve an overcharge issue on my bill.""
+4. **Sara House** - **Lewis-Nelson**: ""I encountered some issues with the billing department at the hospital. It took multiple calls to resolve the errors in my invoice."""
+95,Now show me the total number of visits for that clinic last month.,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:38:45,True,4.383786916732788,The total number of visits for Downtown Clinic last month was 0.
+96,Who is patient Jane Doe's primary care physician?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:38:49,True,4.381363153457642,I don't have information on Jane Doe's primary care physician.
+97,What do other patients say about him?,HospitalReviewsQA,HospitalReviewsQA,2025-06-18 04:38:54,True,5.372437953948975,"I don't have specific reviews about the physician Alexander Jimenez. However, one patient, David Carlson, mentioned that his hospital experience was a mix of positives and negatives, noting that while the medical care was satisfactory, there was a lack of clear communication about the treatment plan that left him feeling uneasy and uninformed."
+98,And what other hospitals is he affiliated with?,HospitalGraphQA,HospitalGraphQA,2025-06-18 04:39:07,True,12.24076795578003,"Alexander Jimenez is affiliated with Burke, Griffin and Cooper hospital."
+99,"Okay, that's all I need for now.",no,no,2025-06-18 04:39:09,True,2.530129909515381,No further action is needed at this time.

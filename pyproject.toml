@@ -1,0 +1,38 @@
+[project]
+name = "vansy-f8a-genai-test"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Van Sy",email = "vansy151101@gmail.com"}
+]
+readme = "README.md"
+requires-python = "==3.13.3"
+dependencies = [
+    "langchain (>=0.3.25,<0.4.0)",
+    "langgraph (>=0.4.8,<0.5.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "langchain-core (>=0.3.65,<0.4.0)",
+    "pinecone (>=7.0.2,<8.0.0)",
+    "pinecone-notebooks (>=0.1.1,<0.2.0)",
+    "langchain-openai (>=0.3.23,<0.4.0)",
+    "langchain-pinecone (>=0.2.8,<0.3.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "numpy (>=2.3.0,<3.0.0)",
+    "openai (>=1.86.0,<2.0.0)",
+    "retry (>=0.9.2,<0.10.0)",
+    "neo4j (>=5.28.1,<6.0.0)",
+    "langchain-community (>=0.3.25,<0.4.0)",
+    "langchain-neo4j (>=0.4.0,<0.5.0)",
+]
+
+
+[tool.poetry]
+packages = [{include = "vansy_f8a_genai_test", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

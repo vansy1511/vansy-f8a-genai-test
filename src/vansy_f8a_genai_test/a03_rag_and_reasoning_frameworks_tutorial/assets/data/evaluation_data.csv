@@ -1,0 +1,101 @@
+num,question,expected_tool
+1,"What is the total number of patients treated at Grace Memorial Hospital in May 2023?",HospitalGraphQA
+2,"List all physicians specializing in Cardiology.",HospitalGraphQA
+3,"What is the billing amount for visit ID 789123?",HospitalGraphQA
+4,"Which insurance provider is associated with patient John Smith (DOB 1985-04-12)?",HospitalGraphQA
+5,"How many visits has Dr. Emily Carter had this month?",HospitalGraphQA
+6,"Find all patients treated by Dr. Ben Adams.",HospitalGraphQA
+7,"What is the address of 'City General Hospital'?",HospitalGraphQA
+8,"Show me the NPI number for a physician named 'Robert Miller'.",HospitalGraphQA
+9,"Which hospital employs Dr. Susan Wright?",HospitalGraphQA
+10,"What was the date of patient Jane Doe's last visit?",HospitalGraphQA
+11,"List all payers (insurance companies) available in the system.",HospitalGraphQA
+12,"How many reviews has Dr. Chen received?",HospitalGraphQA
+13,"What is the total billing revenue for 'Mercy West Hospital' for the last quarter?",HospitalGraphQA
+14,"Find the visit details for patient ID 55432 on June 1st, 2023.",HospitalGraphQA
+15,"Which physicians work at 'Downtown Clinic'?",HospitalGraphQA
+16,"How many patients are covered by BlueCross?",HospitalGraphQA
+17,"What is patient Michael Johnson's primary insurance provider?",HospitalGraphQA
+18,"Count the number of physicians with the specialty 'Pediatrics'.",HospitalGraphQA
+19,"What is the most recent visit recorded in the system?",HospitalGraphQA
+20,"List all patients who had a visit in the last week.",HospitalGraphQA
+21,"How many hospitals are in the network?",HospitalGraphQA
+22,"Find the patient with the highest single visit bill amount.",HospitalGraphQA
+23,"Which doctor wrote review ID R456?",HospitalGraphQA
+24,"How many visits were covered by Aetna last year?",HospitalGraphQA
+25,"List the specialties of all physicians employed by 'Grace Memorial Hospital'.",HospitalGraphQA
+26,"What are common complaints about the emergency room at City General Hospital?",HospitalReviewsQA
+27,"How do patients describe Dr. Emily Carter's bedside manner?",HospitalReviewsQA
+28,"Is Dr. Ben Adams known for being on time for appointments?",HospitalReviewsQA
+29,"What do reviews say about the cleanliness of Mercy West Hospital?",HospitalReviewsQA
+30,"Find reviews mentioning 'long wait times' at Downtown Clinic.",HospitalReviewsQA
+31,"What is the general patient sentiment for the cardiology department at Grace Memorial?",HospitalReviewsQA
+32,"Are there any positive comments about the nursing staff at City General Hospital?",HospitalReviewsQA
+33,"How do patients feel about the parking situation at Mercy West?",HospitalReviewsQA
+34,"Summarize the patient experience for those who saw Dr. Chen for a consultation.",HospitalReviewsQA
+35,"What are the most praised aspects of Dr. Susan Wright's practice?",HospitalReviewsQA
+36,"Do patients find the billing department at Grace Memorial helpful?",HospitalReviewsQA
+37,"Is the food at City General Hospital reviewed favorably?",HospitalReviewsQA
+38,"What do parents say about the pediatricians at Downtown Clinic?",HospitalReviewsQA
+39,"Find reviews that mention 'communication skills' for Dr. Robert Miller.",HospitalReviewsQA
+40,"How would you describe the atmosphere in the maternity ward at Mercy West based on reviews?",HospitalReviewsQA
+41,"Are there any reviews complaining about difficulty scheduling appointments with Dr. Carter?",HospitalReviewsQA
+42,"What are some reasons patients recommend Dr. Adams?",HospitalReviewsQA
+43,"Do reviews mention the quality of the post-operative care at Grace Memorial?",HospitalReviewsQA
+44,"What feedback have patients given about the check-in process at Downtown Clinic?",HospitalReviewsQA
+45,"Summarize the negative feedback for City General Hospital.",HospitalReviewsQA
+46,"Is Dr. Chen considered a good listener by his patients?",HospitalReviewsQA
+47,"What is the worst thing patients have said about their stay at Mercy West?",HospitalReviewsQA
+48,"How do patients rate the follow-up care provided by Dr. Wright?",HospitalReviewsQA
+49,"Find patient opinions on the comfort of the rooms at Grace Memorial.",HospitalReviewsQA
+50,"Are there reviews that compare Dr. Adams to other surgeons at his hospital?",HospitalReviewsQA
+51,"Tell me about Dr. Sarah Jenkins.",HospitalReviewsQA
+52,"Is Mercy West a good hospital?",HospitalReviewsQA
+53,"How much does it cost to see a cardiologist at City General Hospital?",HospitalGraphQA
+54,"Which pediatrician should I take my child to?",HospitalReviewsQA
+55,"What is the wait time at the Downtown Clinic?",HospitalReviewsQA
+56,"Find me a top-rated surgeon at Grace Memorial.",HospitalReviewsQA
+57,"How busy is Dr. Ben Adams?",HospitalGraphQA
+58,"What's the process for a new patient at Downtown Clinic?",HospitalReviewsQA
+59,"Compare Dr. Carter and Dr. Miller.",HospitalReviewsQA
+60,"What are my options for knee surgery at City General Hospital?",HospitalGraphQA
+61,"Is it expensive to get treated at Grace Memorial?",HospitalGraphQA
+62,"Find me a doctor who is good with anxious patients.",HospitalReviewsQA
+63,"How can I find out the cost of my recent procedure?",HospitalGraphQA
+64,"What's the best hospital for cardiac care?",HospitalReviewsQA
+65,"Who is the head of pediatrics at Mercy West?",HospitalGraphQA
+66,"Tell me about patient experiences with insurance at City General.",HospitalReviewsQA
+67,"How many patients has the best-rated doctor at Grace Memorial seen?",HospitalReviewsQA
+68,"Is it easy to get an appointment with Dr. Chen?",HospitalReviewsQA
+69,"What is the average bill for a patient covered by UnitedHealthcare?",HospitalGraphQA
+70,"What are the credentials of the most recommended orthopedic surgeon?",HospitalGraphQA
+71,"Does Dr. Wright have a good reputation?",HospitalReviewsQA
+72,"I need a doctor who speaks Spanish.",HospitalGraphQA
+73,"What's the difference between Mercy West and City General?",HospitalReviewsQA
+74,"Can you tell me if my insurance covers Dr. Adams?",HospitalGraphQA
+75,"Why do people like Dr. Carter so much?",HospitalReviewsQA
+76,"Hello",no
+77,"Find me the top-rated cardiologist at Grace Memorial Hospital.",HospitalReviewsQA
+78,"Which hospital does he work at?",HospitalGraphQA
+79,"How many patients has he treated this year?",HospitalGraphQA
+80,"Thank you.",no
+81,"What are common complaints about Dr. Robert Miller?",HospitalReviewsQA
+82,"And what are his areas of specialty?",HospitalGraphQA
+83,"Who else in that specialty works at his hospital?",HospitalGraphQA
+84,"Which of them has better reviews for punctuality?",HospitalReviewsQA
+85,"What was the total bill for my visit on July 20, 2023 with Dr. Carter?",HospitalGraphQA
+86,"Was that visit covered by my primary insurance?",HospitalGraphQA
+87,"Can you tell me what people say about her?",HospitalReviewsQA
+88,"That's helpful, thanks.",no
+89,"List all hospitals in the system.",HospitalGraphQA
+90,"Which one has the highest number of physicians?",HospitalGraphQA
+91,"Now, which one has the best reviews for its emergency room?",HospitalReviewsQA
+92,"What is the address for that one?",HospitalGraphQA
+93,"Can you help me?",no
+94,"Show me the patient reviews for Downtown Clinic.",HospitalReviewsQA
+95,"Filter those for reviews mentioning 'billing issues'.",HospitalReviewsQA
+96,"Now show me the total number of visits for that clinic last month.",HospitalGraphQA
+97,"Who is patient Jane Doe's primary care physician?",HospitalGraphQA
+98,"What do other patients say about him?",HospitalReviewsQA
+99,"And what other hospitals is he affiliated with?",HospitalGraphQA
+100,"Okay, that's all I need for now.",no
