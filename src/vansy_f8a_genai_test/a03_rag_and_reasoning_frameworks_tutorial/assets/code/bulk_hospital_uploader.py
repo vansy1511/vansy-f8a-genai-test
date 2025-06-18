@@ -6,12 +6,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-HOSPITALS_CSV_PATH = "https://raw.githubusercontent.com/vansy1511/vansy-f8a-genai-test/refs/heads/dev/src/vansy_f8a_genai_test/a03_rag_and_reasoning_frameworks_tutorial/assets/data/hospitals.csv"
-PAYERS_CSV_PATH = "https://raw.githubusercontent.com/vansy1511/vansy-f8a-genai-test/refs/heads/dev/src/vansy_f8a_genai_test/a03_rag_and_reasoning_frameworks_tutorial/assets/data/payers.csv"
-PHYSICIANS_CSV_PATH = "https://raw.githubusercontent.com/vansy1511/vansy-f8a-genai-test/refs/heads/dev/src/vansy_f8a_genai_test/a03_rag_and_reasoning_frameworks_tutorial/assets/data/physicians.csv"
-PATIENTS_CSV_PATH = "https://raw.githubusercontent.com/vansy1511/vansy-f8a-genai-test/refs/heads/dev/src/vansy_f8a_genai_test/a03_rag_and_reasoning_frameworks_tutorial/assets/data/patients.csv"
-VISITS_CSV_PATH = "https://raw.githubusercontent.com/vansy1511/vansy-f8a-genai-test/refs/heads/dev/src/vansy_f8a_genai_test/a03_rag_and_reasoning_frameworks_tutorial/assets/data/visits.csv"
-REVIEWS_CSV_PATH = "https://raw.githubusercontent.com/vansy1511/vansy-f8a-genai-test/refs/heads/dev/src/vansy_f8a_genai_test/a03_rag_and_reasoning_frameworks_tutorial/assets/data/reviews.csv"
+HOSPITALS_CSV_PATH = "https://raw.githubusercontent.com/vansy1511/vansy-f8a-genai-test/refs/heads/main/src/vansy_f8a_genai_test/a03_rag_and_reasoning_frameworks_tutorial/assets/data/hospitals.csv"
+PAYERS_CSV_PATH = "https://raw.githubusercontent.com/vansy1511/vansy-f8a-genai-test/refs/heads/main/src/vansy_f8a_genai_test/a03_rag_and_reasoning_frameworks_tutorial/assets/data/payers.csv"
+PHYSICIANS_CSV_PATH = "https://raw.githubusercontent.com/vansy1511/vansy-f8a-genai-test/refs/heads/main/src/vansy_f8a_genai_test/a03_rag_and_reasoning_frameworks_tutorial/assets/data/physicians.csv"
+PATIENTS_CSV_PATH = "https://raw.githubusercontent.com/vansy1511/vansy-f8a-genai-test/refs/heads/main/src/vansy_f8a_genai_test/a03_rag_and_reasoning_frameworks_tutorial/assets/data/patients.csv"
+VISITS_CSV_PATH = "https://raw.githubusercontent.com/vansy1511/vansy-f8a-genai-test/refs/heads/main/src/vansy_f8a_genai_test/a03_rag_and_reasoning_frameworks_tutorial/assets/data/visits.csv"
+REVIEWS_CSV_PATH = "https://raw.githubusercontent.com/vansy1511/vansy-f8a-genai-test/refs/heads/main/src/vansy_f8a_genai_test/a03_rag_and_reasoning_frameworks_tutorial/assets/data/reviews.csv"
 
 NEO4J_URI = os.getenv("NEO4J_URI")
 NEO4J_USERNAME = os.getenv("NEO4J_USERNAME")
