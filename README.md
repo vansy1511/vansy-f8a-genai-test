@@ -106,6 +106,6 @@ The advanced ReAct agent was evaluated on 100 test questions covering both factu
 
 This project was created and developed by **Van Sy**.
 
--   **GitHub**: `[@vansy1511](https://github.com/vansy1511)`
--   **LinkedIn**: `[Van Sy](https://www.linkedin.com/in/syvan/)`
+-   **GitHub**: [@vansy1511](https://github.com/vansy1511)
+-   **LinkedIn**: [Van Sy](https://www.linkedin.com/in/syvan/)
 -   **Email**: `vansy.work@gmail.com`
