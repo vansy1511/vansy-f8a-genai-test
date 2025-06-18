@@ -63,6 +63,8 @@ def evaluate_agent(agent_executor, csv_filepath):
             if response.get('intermediate_steps'):
                 action = response['intermediate_steps'][0][0]
                 actual_tool = action.tool
+                if actual_tool not in ["HospitalGraphQA", "HospitalReviewsQA"]:
+                    actual_tool = "no"
                 total_tool_selections += 1
                 
                 # NEW: Capture the current time and format it as a string
